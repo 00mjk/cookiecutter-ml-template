@@ -1,6 +1,6 @@
-======================
+=============================
 Cookiecutter Machine Learning
-======================
+=============================
 
 This template modifies the [PyPackage](https://github.com/audreyr/cookiecutter-pypackage/) template from @audreyr.
 It is modified for Machine Learning projects with CI testing (travis, tox and pytest) and documentation using sphinx. 
@@ -70,6 +70,21 @@ Not Exactly What You Want?
 
 Don't worry, you have options:
 
+Similar Project Skeletons
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* `victoresque/pytorch-template`_: template for pytorch projects.
+
+* `tdeboissiere/cookiecutter-deeplearning`_: template for deeplearning project
+
+* `drivendata/cookiecutter-data-science`_: template for data science
+
+* `makcedward/ds_project_template`_: data science project template
+
+* Also see the `network`_ and `family tree`_ for this repo. (If you find
+  anything that should be listed here, please add it and send a pull request!)
+
+
   
 Support The CookieCutter Project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -97,12 +112,14 @@ If you have differences in your preferred setup, I encourage you to fork this
 to create your own version. Or create your own; it doesn't strictly have to
 be a fork.
 
-Or Submit a Pull Request
+Submit a Pull Request
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-I also accept pull requests on this, if they're small, atomic, and if they
+Pull requests are welcome, if they're small, atomic, and if they
 make my own packaging experience better.
 
+Built With
+~~~~~~~~~~
 
 .. _Travis-CI: http://travis-ci.org/
 .. _Tox: http://testrun.org/tox/
@@ -112,6 +129,9 @@ make my own packaging experience better.
 .. _Bumpversion: https://github.com/peritus/bumpversion
 .. _Punch: https://github.com/lgiordani/punch
 .. _PyPi: https://pypi.python.org/pypi
+
+Credits
+~~~~~~~
 
 .. _`Nekroze/cookiecutter-pypackage`: https://github.com/Nekroze/cookiecutter-pypackage
 .. _`tony/cookiecutter-pypackage-pythonic`: https://github.com/tony/cookiecutter-pypackage-pythonic
