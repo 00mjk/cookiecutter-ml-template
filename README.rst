@@ -2,12 +2,28 @@
 Cookiecutter Machine Learning
 =============================
 
-This template modifies the [PyPackage](https://github.com/audreyr/cookiecutter-pypackage/) template from @audreyr.
+This template modifies the (PyPackage)[https://github.com/audreyr/cookiecutter-pypackage/] template from @audreyr.
 It is modified for Machine Learning projects with CI testing (travis, tox and pytest) and documentation using sphinx. 
 
 Cookiecutter_ template for a Python package.
 
 * Free software: BSD license
+
+Table Of Contents
+-----------------
+
+
+
+
+TODO
+----
+
+* post hook sphinx-quickstart
+* travis config for docs to gh_pages
+* configure pytest with pytest.ini
+* configure tox.ini to make use of pipenv
+* configure travis.yml to use tox
+* replace pip and requirements.txt files with pipenv and Pipfile
 
 Features
 --------
@@ -121,6 +137,11 @@ make my own packaging experience better.
 Built With
 ~~~~~~~~~~
 
+Credits
+~~~~~~~
+
+
+
 .. _Travis-CI: http://travis-ci.org/
 .. _Tox: http://testrun.org/tox/
 .. _Sphinx: http://sphinx-doc.org/
@@ -130,8 +151,7 @@ Built With
 .. _Punch: https://github.com/lgiordani/punch
 .. _PyPi: https://pypi.python.org/pypi
 
-Credits
-~~~~~~~
+
 
 .. _`Nekroze/cookiecutter-pypackage`: https://github.com/Nekroze/cookiecutter-pypackage
 .. _`tony/cookiecutter-pypackage-pythonic`: https://github.com/tony/cookiecutter-pypackage-pythonic
