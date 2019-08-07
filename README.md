@@ -1,13 +1,23 @@
 
 # Cookiecutter Machine Learning
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-science.svg)](https://forthebadge.com)
+
+[![Linux build status on Travis CI](https://travis-ci.org/project-delphi/cookiecutter-ml-template.svg?branch=master)](https://travis-ci.org/project-delphi/cookiecutter-ml-template)
+
+
 ## Summary 
 
-It is modified for Machine Learning projects
-with CI testing (travis, tox and pytest) and documentation using sphinx.
+This project is an opioniated template generator for ML projects.
 
-Templates are processed by the 
-[Cookiecutter](https://github.com/audreyr/cookiecutter) python tool.  
+[Cookiecutter]((https://github.com/audreyr/cookiecutter) templates are generated
+with folder structure, CI testing (travis, tox and pytest) and documentation (sphinx) 
+using `pipenv` to manage environments and dependencies.
+
+Template is processed by the 
+[Cookiecutter](https://github.com/audreyr/cookiecutter) Python tool.  
 
 -   Free software: BSD license
 
@@ -29,7 +39,6 @@ Templates are processed by the
 
 ---
 
----
 
 ## TL;DR
 
@@ -47,6 +56,7 @@ The objective of this project is to provide a generic machine learning template 
 -   replace `pip` and `requirements.txt` files with `pipenv` and `Pipfile`
 
 ---
+
 ## Features
 
 -   Testing setup with [py.test](https://docs.pytest.org/en/latest/)
@@ -61,7 +71,9 @@ The objective of this project is to provide a generic machine learning template 
 -   Auto-release to [PyPI](https://pypi.python.org/pypi) when you push a
     new tag to master (optional)
 -   Command line interface using Click (optional)
+
 ---
+
 ## Build Status
 
 **Linux**:
@@ -71,7 +83,9 @@ The objective of this project is to provide a generic machine learning template 
 **Windows**:
 
 Not supported.
+
 ---
+
 ## Quickstart
 
 Install the latest Cookiecutter if you haven't installed it yet (this
@@ -105,7 +119,9 @@ Then:
 
 For more details, see the [cookiecutter-pypackage
 tutorial](https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html).
+
 ---
+
 ## Alternatives
 
 Not Exactly What You Want? Don't worry, you have options. You can look at:
@@ -117,6 +133,7 @@ Not Exactly What You Want? Don't worry, you have options. You can look at:
 - Submit a Pull Request
 
 ---
+
 ### Similar Projects
 
 Related Cookiecutter Templates:
@@ -135,22 +152,30 @@ Other Project Templates Without Cookiecutter
 
 Also see the [network](https://github.com/project-delphi/cookiecutter-ml-template/network) and [family tree](https://github.com/project-delphi/cookiecutter-ml-template/network/dependents) for this repo. (If you find 
 anything that should be listed here, please add it and send a pull request!)
+
 ---
+
 ### Fork This / Create Your Own
 
 If you have differences in your preferred setup, I encourage you to fork
 this to create your own version. Or create your own; it doesn't strictly
 have to be a fork.
+
 ---
+
 ### Submit a Pull Request
 
 Pull requests are welcome, if they're small, atomic, and if they make my
 own packaging experience better.
+
 ---
+
 ## Feedback
 
 Aside from PR's you can contact me on [twitter](https://twitter.com/ravkalia1).
+
 ---
+
 ## Support The CookieCutter Project
 
 You can take our detailed course that covers all the features of the cookiecutter project, 
@@ -165,25 +190,30 @@ También disponible en español:
 ---
 ## Built With
 
-[py.test](https://www.pytest.org)
-[Travis-CI](http://travis-ci.org/)
-[Tox](http://testrun.org/tox/)
-[Sphinx](http://sphinx-doc.org/)
-[ReadTheDocs](https://readthedocs.io/)
-[Bumpversion](https://github.com/peritus/bumpversion):
-[PyPI](https://pypi.python.org/pypi) 
-[Click](https://click.palletsprojects.com)
+- [py.test](https://www.pytest.org)
+- [Travis-CI](http://travis-ci.org/)
+- [Tox](http://testrun.org/tox/)
+- [Sphinx](http://sphinx-doc.org/)
+- [ReadTheDocs](https://readthedocs.io/)
+- [Bumpversion](https://github.com/peritus/bumpversion):
+- [PyPI](https://pypi.python.org/pypi) 
+- [Click](https://click.palletsprojects.com)
+
 ---
+
 ## Credits
 
 This template is heavily based on [PyPackage](https://github.com/audreyr/cookiecutter-pypackage)
 template from [@audreyr](https://github.com/audreyr).
 
 It is also inspired by [Data Science](https://github.com/drivendata/cookiecutter-data-science) template from [Driven Data](https://github.com/drivendata).
+
 ---
+
 ## License
 
 You can check out the full license [here](./LICENSE)
 
 This project is licensed under the terms of the [MIT](https://choosealicense.com/licenses/mit/) license.
+
 ---
