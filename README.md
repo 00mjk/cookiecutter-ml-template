@@ -10,16 +10,17 @@
 
 ## Summary 
 
-This project is an opioniated template generator for ML projects.
+This project is an opinionated template  for ML projects which creates package skeletons.
 
-[Cookiecutter]((https://github.com/audreyr/cookiecutter) templates are generated
-with folder structure, CI testing (travis, tox and pytest) and documentation (sphinx) 
-using `pipenv` to manage environments and dependencies.
+Once generated, the package skeletons have the following features:
 
-Template is processed by the 
-[Cookiecutter](https://github.com/audreyr/cookiecutter) Python tool.  
+-  Good base folder structure for many kinds of ML Projects
+-  CI testing (travis, tox and pytest)
+-  Automated building, versioning and hosting of documentation (sphinx on github pages)
+- using `pipenv` and the `Pipfile` format to manage virtual environments and dependencies.
 
--   Free software: BSD license
+The project template is populated and then processed by the excellent [Cookiecutter](https://github.com/audreyr/cookiecutter) Python tool.  
+
 
 ## Table Of Contents
 
@@ -82,7 +83,7 @@ The objective of this project is to provide a generic machine learning template 
 
 **Windows**:
 
-Not supported.
+Not supported for now.
 
 ---
 
@@ -128,8 +129,8 @@ Not Exactly What You Want? Don't worry, you have options. You can look at:
 
 - Similar Projects
     - Other Cookiecutter Templates
-    - Non Cookiecutter Templates
-- Fork
+    - Non Cookiecutter Package Skeletons
+- Fork this project
 - Submit a Pull Request
 
 ---
@@ -141,7 +142,7 @@ Related Cookiecutter Templates:
 -   [pytorch-template](https://github.com/victoresque/pytorch-template) for pytorch projects
 -   [deeplearning](https://github.com/tdeboissiere/cookiecutter-deeplearning): template for
     deeplearning projects
--   Driven Data's [data science](https://github.com/drivendata/cookiecutter-data-science) template 
+-   [Driven Data](http://drivendata.github.io/cookiecutter-data-science/)'s [data science](https://github.com/drivendata/cookiecutter-data-science) template 
     for data science projects
 
 Other Project Templates Without Cookiecutter
@@ -206,7 +207,7 @@ También disponible en español:
 This template is heavily based on [PyPackage](https://github.com/audreyr/cookiecutter-pypackage)
 template from [@audreyr](https://github.com/audreyr).
 
-It is also inspired by [Data Science](https://github.com/drivendata/cookiecutter-data-science) template from [Driven Data](https://github.com/drivendata).
+It is also inspired by [Data Science](https://github.com/drivendata/cookiecutter-data-science) template from [Driven Data](http://drivendata.github.io/cookiecutter-data-science/).
 
 ---
 
