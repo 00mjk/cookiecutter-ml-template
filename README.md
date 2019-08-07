@@ -13,24 +13,27 @@ Templates are processed by the
 
 ## Table Of Contents
 
-[TL;DR]()
+[TL;DR](#TLDR)
 
-- [Todo]()
-- [Features]()
-- [Build Status]()
-- [Quickstart]()
-- [Alternatives]()
-- [Support]()
-- [Feedback]()
-- [Built With]()
-- [Credits]()
-- [License]()
+- [Todo](#Todo)
+- [Features](#Features)
+- [Build Status](#Build-Status)
+- [Quickstart](#Quickstart)
+- [Alternatives](#Alternatives)
+- [Support](#Support-The-CookieCutter-Project)
+- [Feedback](#Feedback)
+- [Built With](#Built-With)
+- [Credits](#Credits)
+- [License](#License)
+
+
+---
 
 ---
 
 ## TL;DR
 
-The objective of this project is to provide a generic machine learning template for python based projects. This includes folder structure, testing and documentation tools integrated with travis and github which should work well for most small to midsize projects.
+The objective of this project is to provide a generic machine learning template for python based projects. This includes folder structure, testing and documentation tools integrated with travis and github which should work well for most small to midsize (in terms of number of features & examples) projects using a single instance of a machine.
 
 ---
 
