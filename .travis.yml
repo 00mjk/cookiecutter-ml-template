@@ -12,7 +12,8 @@ deploy:
   user: project-delphi
   password:
     secure: m2KPFxrcO40Rhmp81WpmA0JfvqQYseUV3UKdZ4O7yG6yFw3A+M/cn3C1AWeP4CYA87qXozaJFX9F5i39oGU+VILhUlnafmAVo1LnlNSrc2f609n64zIzgbUUvvu0s28emO/eo2oVq6CBZGhZEF/cYZ5jxeAAKwUcsIFchpWmmqiWWfFVsrQSfi1UDkLMoGkKFFT0pGnQKQA9olWKkZWUQcBdB19vi8wFHQaektQP4S9Anglg71isAR0TJL6gQLxPvvHe/hK0s1Ex/vHk2C72WJNX6Y+PsLtTqlwOTd+Fl7kjPouXdmPap2KbWBgY9WdmDbtxGiShU5SGotfZ6YLMSq89MR8D3oErGGd06jhun+Y+EZWyf4EdrQUkDwzSaSu6n5VuHl+BmmsrtKKlyMM3K1uaV6GRFRQDMQac2dZcSyURJnfTZ+jhH9cO0bJF9dcHBSdkvBD9GCywjYPQaBvk1mM7O5qoJ6jfsr7CDn1YyRNeXet5eTEBnj1BsWSk8OA1DG9qRPA0Un/Zs4KdEYshFEUW2x4HsE6klkf45dywadhrlrrI70htjKbG0JSWtbWLqam0FsST7uprlrcMiK7PHFSawYK9DCY/VcD+mcER219KszZNtTPz4cFwXZZBrLsYs+55xCiLCfup57tl4PbpbuK/XzuyvxoI5m1KKbDY7Sk=
-  on:
-    tags: true
+   skip_cleanup: true
+    on:
+      branch: release
     repo: project-delphi/cookiecutter-ml-template
     python: 3.7
