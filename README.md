@@ -49,10 +49,6 @@ The objective of this project is to provide a generic machine learning template 
 
 -   post hook sphinx-quickstart
 -   travis config for docs to gh_pages
--   configure pytest with pytest.ini
--   configure tox.ini to make use of pipenv
--   configure travis.yml to use tox
--   replace `pip` and `requirements.txt` files with `pipenv` and `Pipfile`
 
 ---
 
