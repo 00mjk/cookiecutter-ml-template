@@ -20,7 +20,6 @@ Once generated, the package skeletons have the following features:
 
 The project template is populated and then processed by the excellent [Cookiecutter](https://github.com/audreyr/cookiecutter) Python tool.  
 
-
 ## Table Of Contents
 
 [TL;DR](#TLDR)
