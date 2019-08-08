@@ -7,8 +7,7 @@
 
 [![Linux build status on Travis CI](https://travis-ci.org/project-delphi/cookiecutter-ml-template.svg?branch=master)](https://travis-ci.org/project-delphi/cookiecutter-ml-template)
 
-
-## Summary 
+## Summary
 
 This project is an opinionated template  for ML projects which creates package skeletons.
 
