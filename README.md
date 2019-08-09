@@ -6,6 +6,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-science.svg)](https://forthebadge.com)
 
 [![Linux build status on Travis CI](https://travis-ci.org/project-delphi/cookiecutter-ml-template.svg?branch=master)](https://travis-ci.org/project-delphi/cookiecutter-ml-template)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Summary
 
